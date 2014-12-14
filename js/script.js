@@ -1,4 +1,6 @@
-String.prototype.trunc = String.prototype.trunc ||
-      function(n){
-          return this.length>n ? this.substr(0,n-1)+'&hellip;' : this;
-      };
+$(".link").each(function () {
+    text = $(this).text();
+    if (text.length > 108) {
+        $(this).html(text.substr(0, 150));
+    }
+});
