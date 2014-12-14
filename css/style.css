@@ -152,4 +152,18 @@ a {
     font-size: 20px;
     text-transform: uppercase;
     color: #33383d;
+    margin-bottom: 34px;
+}
+.text {
+    margin-bottom: 20px; 
+    font-size: 12px;
+    font-family: OpenSans-Regular;
+    
+}
+.date {
+    color: #b7b7b7;
+}
+.news_link {
+    color: #5f9900;
+    text-decoration: underline;
 }
