@@ -24,15 +24,74 @@ html, body {
 a {
     text-decoration: none;
 }
-.wrapper {
-    background-image: url(../images/background.png);
+header {
+    position: relative;
+    text-align: center;
+    height: 490px;
+}
+nav {
+    position: relative;
+    height: 49px;
+    background-color: #303539;
+    border-bottom: 1px solid black;
+}
+.basket, form {
+    display: inline-block;
+}
+.form {
+    height: 49px;
+    border-top: 1px solid black;
+    width: 880px;
+    text-align: left;
+}
+form {
+    width: 646px;
+    height: 100%;
+    background-color: #303539;
+}
+.basket {
+    text-align: left;
+    width: 230px;
+    height: 48px;
+    background: -webkit-linear-gradient(#ffd018, #ff9e13);
+    background: -o-linear-gradient(#ffd018, #ff9e13);
+    background: -moz-linear-gradient(#ffd018, #ff9e13); 
+    background: linear-gradient(#ffd018, #ff9e13);
+}
+.head {
+    height: 100%;
+}
+.storeel_logo {
+    height: 100px;
+    width: 300px;
+    background: -webkit-linear-gradient(#34393e, #141719);
+    background: -o-linear-gradient(#34393e, #141719);
+    background: -moz-linear-gradient(#34393e, #141719); 
+    background: linear-gradient(#34393e, #141719);
+    vertical-align: top;
+    margin-top: 20px;
+}
+.menu {
+    text-align: left;
+    margin-top: 20px;
+    height: 100px;
+    width: 880px;
+}
+.storeel, .logo {
+    display: inline-block;
 }
 .storeel p {
     font-family: RussoOne;
     float: left;
+    font-size: 20px;
 }
-.menu {
-    padding-left: 20px;
+.storeel {
+    position: relative;
+    margin-top: 40px;
+    vertical-align: top;
+}
+.wrapper {
+    background-image: url(../images/background.png);
 }
 .category_menu {
     background-image: url(../images/category_font.png);
