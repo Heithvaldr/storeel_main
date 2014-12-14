@@ -118,11 +118,19 @@ a {
     background: -moz-linear-gradient(#5b7e1b, #394e11); 
     background: linear-gradient(#5b7e1b, #394e11);
     border: none;
-    box-shadow: 0 -1px 0 0 #9dd62e;
+    border-top: 1px solid #9dd62e;
     border-radius: 3px;
     position: absolute;
     bottom: 0;
     left: 55px;
+}
+button:hover {
+    background: -webkit-linear-gradient(#9bac24, #617a16);
+    background: -o-linear-gradient(#9bac24, #617a16);
+    background: -moz-linear-gradient(#9bac24, #617a16); 
+    background: linear-gradient(#9bac24, #617a16);
+    border-top: 1px solid #e1e73d;
+    box-shadow: inset 0px -5px 10px #d5dd80;
 }
 .good img {
     margin: 25px 0 20px 0;
