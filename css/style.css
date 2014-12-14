@@ -50,8 +50,26 @@ a {
     font-family: OpenSans-Regular;
     font-size: 12px;
 }
-.category p {
-    
+.abb:hover img {
+    background-image: url(../images/abb_lighted.png);
+}
+.legrand:hover img {
+    background-image: url(../images/legrand_lighted.png);
+}
+.ge:hover img {
+    background-image: url(../images/ge_lighted.png);
+}
+.cabel_wire:hover img {
+    background-image: url(../images/cabel&wire_lighted.png);
+}
+.wago:hover img {
+    background-image: url(../images/wago_lighted.png);
+}
+.pvh_pnd:hover img {
+    background-image: url(../images/pvh&pnd_lighted.png);
+}
+.counters:hover img {
+    background-image: url(../images/counters_lighted.png);
 }
 .storeel_logo, .menu {
     display: inline-block;
@@ -108,6 +126,10 @@ a {
 }
 .good img {
     margin: 25px 0 20px 0;
+}
+.goods_link:hover .description {
+    text-decoration: underline;
+    color: #609900;
 }
 .fork {
     display: inline-block;
