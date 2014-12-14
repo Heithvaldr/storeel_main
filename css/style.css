@@ -69,7 +69,7 @@ a {
     text-align: center;
 }
 .goods_description {
-    margin: 36px 0 36px 95px;
+    margin: 0 0 36px 95px;
     text-align: left;
     font-family: RussoOne;
     font-size: 27px;
@@ -83,6 +83,9 @@ a {
     background-color: #31363b;
     border: 2px solid #191a1b;
     border-radius: 5px;
+}
+.best {
+    margin-top: 36px;
 }
 .good button {
     width: 160px;
@@ -111,6 +114,9 @@ a {
 }
 .socket {
     display: inline-block;
+}
+.line {
+    margin: 30px 0 30px 0;
 }
 .description {
     color: white;
