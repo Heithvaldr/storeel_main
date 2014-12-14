@@ -1,0 +1,103 @@
+@font-face {
+    font-family: RussoOne; 
+    src: url(../fonts/RussoOne-Regular.ttf); 
+}
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+.uppercased {
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+}
+.wrapper {
+    background-image: url(../images/background.png);
+}
+.storeel p {
+    font-family: RussoOne;
+    float: left;
+}
+.menu {
+    padding-left: 20px;
+}
+.category_menu {
+    background-image: url(../images/category_font.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 180px;
+}
+.category {
+    padding: 22px 20px 0 20px;
+    vertical-align: top;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-family: OpenSans-Regular;
+    font-size: 12px;
+}
+.category p {
+    
+}
+.storeel_logo, .menu {
+    display: inline-block;
+}
+.store {
+    color: #518f00;
+}
+.el {
+    color: #ffaf18;
+}
+.ru {
+    color: #454d53;
+}
+.goods {
+    text-align: center;
+}
+.goods_description {
+    text-align: left;
+    font-family: RussoOne;
+    font-size: 30px;
+    color:  white;
+}
+.good {
+    margin: 0 25px 0 25px;
+    width: 240px;
+    height: 320px;
+    background-color: #31363b;
+    border: 2px solid #191a1b;
+    border-radius: 3px;
+}
+.good button {
+    width: 160px;
+    height: 44px;
+    color: white;
+    text-align: center;
+    font-family: RussoOne;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#5b7e1b, #394e11);
+    background: -o-linear-gradient(#5b7e1b, #394e11);
+    background: -moz-linear-gradient(#5b7e1b, #394e11); 
+    background: linear-gradient(#5b7e1b, #394e11);
+    border: none;
+    box-shadow: 0 -1px 0 0 #9dd62e;
+    border-radius: 3px;
+}
+.good img {
+    margin-top: 25px;
+}
+.fork {
+    display: inline-block;
+}
+.socket {
+    display: inline-block;
+}
