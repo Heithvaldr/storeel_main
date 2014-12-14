@@ -69,7 +69,7 @@ a {
     text-align: center;
 }
 .goods_description {
-    margin: 36px 0 36px 0;
+    margin: 36px 0 36px 95px;
     text-align: left;
     font-family: RussoOne;
     font-size: 27px;
@@ -104,7 +104,7 @@ a {
     left: 55px;
 }
 .good img {
-    margin: 25px 0 28px 0;
+    margin: 25px 0 20px 0;
 }
 .fork {
     display: inline-block;
@@ -120,6 +120,7 @@ a {
     text-align: left;
 }
 .price {
+    margin-top: 10px;
     color: #ffae18;
 }
 .good b {
@@ -129,5 +130,26 @@ a {
 .crossed {
     text-decoration: line-through;
     color: #62686f;
-    margin-top: 10px;
+}
+.wite_text {
+    height: 420px;
+    background-color: white;
+}
+.wt_description {
+    padding-top: 56px;
+    display: inline-block;
+    vertical-align: top;
+}
+.storeel_int_mar {
+    margin: 0 50px 0 95px;
+    width: 850px;
+}
+.news {
+    width: 230px;
+}
+.title {
+    font-family: RussoOne;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #33383d;
 }
