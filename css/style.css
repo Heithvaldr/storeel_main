@@ -58,6 +58,9 @@ nav a:active {
 nav a:active p{
     color: white;    
 }
+nav a:hover p {
+    color: white;
+}
 nav a p {
     padding: 15px 31px 0 32px;
     font-family: OpenSans-Bold;
@@ -79,6 +82,7 @@ form {
     background-color: #303539;
 }
 .basket {
+    border-top: 1px solid #ffed26;
     text-align: left;
     width: 230px;
     height: 48px;
@@ -86,6 +90,27 @@ form {
     background: -o-linear-gradient(#ffd018, #ff9e13);
     background: -moz-linear-gradient(#ffd018, #ff9e13); 
     background: linear-gradient(#ffd018, #ff9e13);
+}
+.basket img {
+    padding-right: 10px;
+    float: right;
+}
+.prices {
+    padding: 5px 0 0 20px;
+    float: left;
+}
+.bascket_price {
+    color: #a60303;
+    font-size: 17px;
+    font-family: RussoOne;
+}
+.bascket_price small {
+    font-size: 12px;
+}
+.quantity{
+    color: #9d6312;
+    font-size: 12px;
+    font-family: OpenSans-Regular;
 }
 .head {
     margin: 0 auto;
