@@ -78,8 +78,27 @@ nav a p {
 }
 form {
     width: 650px;
-    height: 100%;
-    background-color: #303539;
+    height: 48px;
+    border-top: 1px solid #373c40;
+    background: -webkit-linear-gradient(#2f3437, #24282b);
+    background: -o-linear-gradient(#2f3437, #24282b);
+    background: -moz-linear-gradient(#2f3437, #24282b); 
+    background: linear-gradient(#2f3437, #24282b);
+}
+.login {
+    float: right;
+    padding-right: 32px;
+}
+.login a {
+    margin: 12px 14px 0 14px;
+    display: inline-block;
+}
+.login a p {
+    font-family: OpenSans-Regular;
+    font-size: 12px;
+    text-transform: capitalize;
+    border-bottom: 1px dashed;
+    color: #494d50;
 }
 .basket {
     border-top: 1px solid #ffed26;
