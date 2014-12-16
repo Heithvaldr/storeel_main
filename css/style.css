@@ -207,6 +207,15 @@ form input {
     vertical-align: top;
     margin-top: 20px;
 }
+.store {
+    color: #518f00;
+}
+.el {
+    color: #ffaf18;
+}
+.ru {
+    color: #454d53;
+}
 .menu {
     border-top: 1px solid #495155;
     text-align: left;
@@ -227,10 +236,11 @@ form input {
     margin-top: 40px;
     vertical-align: top;
 }
-.slider {
-    position: absolute;
-    top: 265px;
-    left: 250px;
+.whole_menu {
+    width: 1200px;
+    height: 101px;-webkit-box-shadow: 0px 70px 30px -40px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 70px 30px -40px rgba(0, 0, 0, 1);
+    box-shadow: 0px 70px 30px -40px rgba(0, 0, 0, 1);
 }
 .bascket_orders {
     text-align: left;
@@ -250,14 +260,46 @@ form input {
     background: -webkit-gradient(linear, left center, right center, from(#908F8F), to(#908F8F), color-stop(.5,#EAE9E9));
     background: -moz-linear-gradient(left, #908F8F 0%, #EAE9E9 50%, #908F8F 100%)
 }
-.minus_twenty p { 
+.minus_twenty p {
     margin-top: 6px;
     font-family: RussoOne;
     font-size: 56px;
+    color: rgba(27,27,27, 0.5);
+    text-shadow: 1px 2px 4px #5c5c5c, 0 0 0 #000, 1px 2px 4px #5c5c5c;
 }
 .bascket_orders, .minus_twenty {
     display: inline-block;
     vertical-align: middle;
+}
+.balls {
+    position: relative;
+    padding-top: 168px;
+}
+.ball {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-image: url(../images/ball.png);
+    display: inline-block;
+}
+.ball:active {
+    background-image: url(../images/ball_active.png);
+}
+#slider {
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;    
+    position: relative;
+    top: 147px;
+    margin: 0 auto;
+    height: 180px;
+}
+.slide {
+    /*position: absolute;
+    left: 250px;*/
+    
 }
 
 
@@ -304,17 +346,9 @@ form input {
 .counters:hover img {
     background-image: url(../images/counters_lighted.png);
 }
-.storeel_logo, .menu {
-    display: inline-block;
-}
-.store {
-    color: #518f00;
-}
-.el {
-    color: #ffaf18;
-}
-.ru {
-    color: #454d53;
+.black_cubes {
+    display: block;
+    margin: 0 auto;
 }
 .goods {
     text-align: center;
@@ -441,3 +475,36 @@ form input {
 
 /* -- footer -- */
 
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -106px; 
+}
+.wrapper:after {
+    content: "";
+    display: block;
+}
+footer, .wrapper:after {
+    height: 106px; 
+}
+footer {
+    position: relative;
+    background-color: #1a1a1a;
+}
+.footer_links a {
+    font-size: 12px;
+    font-family: OpenSans-Regular;
+    color: #656a6e;
+    text-decoration: underline;
+    display: inline-block;
+    margin-right: 20px;
+}
+.copyright {
+    font-size: 12px;
+    font-family: OpenSans-Regular;
+    color: #3c3c3c;
+}
+.created_by {
+    display: inline-block;
+    margin-left: 94px;
+}

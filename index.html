@@ -4,6 +4,8 @@
     <head>
         <meta charset="utf-8">
         <title>storeel</title>
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
     
@@ -12,73 +14,109 @@
             <header>
                 <div class="head">     
                     
-                    <div class="storeel_logo uppercased">
-                        <a href="#">
-                            <img class="logo" src="images/logo.png"/>    
-                            <div class="storeel">
-                                <p class="store">store</p>
-                                <p class="el">el</p>
-                                <p class="ru">.ru</p>
-                            </div>
-                        </a>
-                    </div>
-                    
-                    <div class="menu">
-                        <nav class="uppercased">
+                    <div class="whole_menu">
+                        <div class="storeel_logo uppercased">
                             <a href="#">
-                                <p>главная</p>
-                            </a>
-                            <a href="#">
-                                <p>каталог</p>
-                            </a>
-                            <a href="#">
-                                <p>о нас</p>
-                            </a>
-                            <a href="#">
-                                <p>оплата и доставка</p>
-                            </a>
-                            <a href="#">
-                                <p>скидки и акции</p>
-                            </a>
-                            <a href="#">
-                                <p>контакты</p>
-                            </a>
-                        </nav>
-                        <div class="form">
-                            <form>
-                                <input type="search" placeholder="Поиск...">
-                                <div class="login">
-                                    <a href="#">
-                                        <p>войти</p>
-                                    </a>
-                                    <div class="vert_line"></div>
-                                    <a href="#">
-                                        <p>зарегистрироваться</p>
-                                    </a>
+                                <img class="logo" src="images/logo.png"/>    
+                                <div class="storeel">
+                                    <p class="store">store</p>
+                                    <p class="el">el</p>
+                                    <p class="ru">.ru</p>
                                 </div>
-                            </form>
-                            
-                            <a href="#" class="buy">
-                                <div class="basket">
-                                    <div class="prices">
-                                        <p class="bascket_price">12 000 <small>руб.</small></p>
-                                        <p class="quantity">24 товара</p>
+                            </a>
+                        </div>
+                        
+                        <div class="menu">
+                            <nav class="uppercased">
+                                <a href="#">
+                                    <p>главная</p>
+                                </a>
+                                <a href="#">
+                                    <p>каталог</p>
+                                </a>
+                                <a href="#">
+                                    <p>о нас</p>
+                                </a>
+                                <a href="#">
+                                    <p>оплата и доставка</p>
+                                </a>
+                                <a href="#">
+                                    <p>скидки и акции</p>
+                                </a>
+                                <a href="#">
+                                    <p>контакты</p>
+                                </a>
+                            </nav>
+                            <div class="form">
+                                <form>
+                                    <input type="search" placeholder="Поиск...">
+                                    <div class="login">
+                                        <a href="#">
+                                            <p>войти</p>
+                                        </a>
+                                        <div class="vert_line"></div>
+                                        <a href="#">
+                                            <p>зарегистрироваться</p>
+                                        </a>
                                     </div>
-                                    <img src="images/bascket.png"/>
-                                </div>
-                            </a>
+                                </form>
+                                
+                                <a href="#" class="buy">
+                                    <div class="basket">
+                                        <div class="prices">
+                                            <p class="bascket_price">12 000 <small>руб.</small></p>
+                                            <p class="quantity">24 товара</p>
+                                        </div>
+                                        <img src="images/bascket.png"/>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     
-                    <div class="slider">
-                        <div class="minus_twenty">
-                            <p>
-                                <i>-20%</i>
-                            </p>
+                    <div id="slider" class="owl-carousel">
+                        <div class="slide">
+                            <div class="minus_twenty">
+                                <p>
+                                    <i>-20%</i>
+                                </p>
+                            </div>
+                            <p class="bascket_orders">на заказы,<br/> оформленные через корзину</p>
                         </div>
-                        <p class="bascket_orders">на заказы,<br/> оформленные через корзину</p>
+                        <div class="slide">
+                            <div class="minus_twenty">
+                                <p>
+                                    <i>-30%</i>
+                                </p>
+                            </div>
+                            <p class="bascket_orders">на заказы,<br/> оформленные через корзину</p>
+                        </div>
+                        <div class="slide">
+                            <div class="minus_twenty">
+                                <p>
+                                    <i>-40%</i>
+                                </p>
+                            </div>
+                            <p class="bascket_orders">на заказы,<br/> оформленные через корзину</p>
+                        </div>
+                        <div class="slide">
+                            <div class="minus_twenty">
+                                <p>
+                                    <i>-50%</i>
+                                </p>
+                            </div>
+                            <p class="bascket_orders">на заказы,<br/> оформленные через корзину</p>
+                        </div>
+                        <!--<div class="balls">
+                            <a class="ball"></a>
+                            <a class="ball"></a>
+                            <a class="ball"></a>
+                            <a class="ball"></a>
+                        </div>-->
                     </div>
-                </div>    
+                </div>
+                
+                
             </header>
         
             <section>
@@ -127,6 +165,7 @@
                             </div>
                         </a>
                     </div>
+                    <img class="black_cubes" src="images/black_cubes.png"/>
                         
                     <div class="goods">
                         <div class="best">
@@ -286,9 +325,41 @@
         </div>
         
         <footer>
+            <div class="footer">
+                <div class="footer_links">
+                    <a href="#">
+                        <p>Главная</p>
+                    </a>
+                    <a href="#">
+                        <p>Каталог</p>
+                    </a>
+                    <a href="#">
+                        <p>О нас</p>
+                    </a>
+                    <a href="#">
+                        <p>Оплата и доставка</p>
+                    </a>
+                    <a href="#">
+                        <p>Скидки и акции</p>
+                    </a>
+                    <a href="#">
+                        <p>Контакты</p>
+                    </a>
+                    <p class="created_by copyright">Сайт разработан в:</p>
+                    <img class="" src="images/underground_studio.png"/>
+                </div>
+                <p class="copyright left_text">
+                    © 2014 Storeel.ru. Все права защищены. 
+                </p>
+                <p class="copyright right_text">
+                    с 9 до 18 без выходных
+                </p>
+            </div>
+            <!--<img class="lower_black_block" src="images/lower_black_cubes.png"/>-->
         </footer>
         
         <script src="js/jquery-1.11.1.js"></script>
+        <script src="js/owl.carousel.js"></script>
         <script src="js/script.js"></script>
     </body>    
 </html>
