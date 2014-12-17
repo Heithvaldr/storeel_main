@@ -56,6 +56,9 @@
 	background-image: url(../images/ball_active.png);
 }
 
+.owl-theme .owl-controls.clickable {
+	margin-top: 90px;
+}
 /* If PaginationNumbers is true */
 
 .owl-theme .owl-controls .owl-page span.owl-numbers{
